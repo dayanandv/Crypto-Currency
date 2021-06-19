@@ -2,7 +2,7 @@
 
 ## An attempt at modeling relationship between crypto currencies using Network Science
 
-Considering bitcoin as a base (since it has the longest timeline), the timeseries of 200 cryptocurrencies (coins) are parsed and merged (on the 'Volume' column as of now) to a single dataframe. The correlation between columns are computed and dumped into the file corrs.csv. This correlation value is used to build a network with the coins as nodes and correlation valeus as edges.
+Considering bitcoin as a base (since it has the longest timeline), the timeseries of 200 cryptocurrencies (coins) are parsed and merged (on the 'Volume' column as of now, may change to 'Close**') to a single dataframe. The correlation between columns are computed and dumped into the file corrs.csv. This correlation value is used to build a network with the coins as nodes and correlation valeus as edges.
 
 ## Ideas TODO:
 1. The network has to be filtered out to remove low-significance edges (based on |corr value|) so that it is no longer a fully connected dense network.
