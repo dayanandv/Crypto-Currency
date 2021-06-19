@@ -1,11 +1,11 @@
 # Crypto-Currency
 
-An attempt at modeling relationship between crypto currencies using Network Science
+## An attempt at modeling relationship between crypto currencies using Network Science
 
-Timeseries of 200 cryptocurrencies (coins) are parsed and merged (on the 'Volume' column as of now) to a single dataframe. The correlation between columns are computed and dumped into the file corrs.csv. This correlation value is used to build a network with the coins as nodes and correlation valeus as edges.
+Considering bitcoin as a base (since it has the longest timeline), the timeseries of 200 cryptocurrencies (coins) are parsed and merged (on the 'Volume' column as of now) to a single dataframe. The correlation between columns are computed and dumped into the file corrs.csv. This correlation value is used to build a network with the coins as nodes and correlation valeus as edges.
 
 ## Ideas TODO:
-1. The network has to be filtered out to remove low-significant edges (based on |corr value|) so that it is no longer a fully connected dense network.
+1. The network has to be filtered out to remove low-significance edges (based on |corr value|) so that it is no longer a fully connected dense network.
 2. Timeseries ('Date' column) has to be windowed and discretized to see how correlation values changes across the timeline
 3. Graph embedding methods to be explored to apply GNN algos which can potentially help in prediction
 4. Direct application of algorithms like Graph Attention Network (GAT) for tasks like link prediction are to be explored
