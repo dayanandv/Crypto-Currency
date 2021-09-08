@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-06-22">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Close**" label="Close**" />
+      <node id="Close**_binance-coin" label="Close**_binance-coin" />
+      <node id="Close**_dogecoin" label="Close**_dogecoin" />
+      <node id="Close**_balancer" label="Close**_balancer" />
+      <node id="Close**_aragon" label="Close**_aragon" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Close**" target="Close**" weight="1.0" />
+      <edge id="1" source="Close**" target="Close**_binance-coin" weight="0.4590271836220419" />
+      <edge id="2" source="Close**" target="Close**_dogecoin" weight="0.8188290242169681" />
+      <edge id="3" source="Close**" target="Close**_balancer" weight="0.6299250507280308" />
+      <edge id="4" source="Close**" target="Close**_aragon" weight="0.37189385072705106" />
+      <edge id="5" source="Close**_binance-coin" target="Close**_binance-coin" weight="1.0" />
+      <edge id="6" source="Close**_binance-coin" target="Close**_dogecoin" weight="0.1193714828425781" />
+      <edge id="7" source="Close**_binance-coin" target="Close**_balancer" weight="0.6744119542476967" />
+      <edge id="8" source="Close**_binance-coin" target="Close**_aragon" weight="-0.07452685821436217" />
+      <edge id="9" source="Close**_dogecoin" target="Close**_dogecoin" weight="1.0" />
+      <edge id="10" source="Close**_dogecoin" target="Close**_balancer" weight="0.03962835795656978" />
+      <edge id="11" source="Close**_dogecoin" target="Close**_aragon" weight="0.5493998780788275" />
+      <edge id="12" source="Close**_balancer" target="Close**_balancer" weight="1.0" />
+      <edge id="13" source="Close**_balancer" target="Close**_aragon" weight="0.9048672403195877" />
+      <edge id="14" source="Close**_aragon" target="Close**_aragon" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

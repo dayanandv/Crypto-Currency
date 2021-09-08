@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="Close**" />
+    <node id="Close**_binance-coin" />
+    <node id="Close**_dogecoin" />
+    <node id="Close**_balancer" />
+    <node id="Close**_aragon" />
+    <edge source="Close**" target="Close**">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Close**" target="Close**_binance-coin">
+      <data key="d0">0.4590271836220419</data>
+    </edge>
+    <edge source="Close**" target="Close**_dogecoin">
+      <data key="d0">0.8188290242169681</data>
+    </edge>
+    <edge source="Close**" target="Close**_balancer">
+      <data key="d0">0.6299250507280308</data>
+    </edge>
+    <edge source="Close**" target="Close**_aragon">
+      <data key="d0">0.37189385072705106</data>
+    </edge>
+    <edge source="Close**_binance-coin" target="Close**_binance-coin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Close**_binance-coin" target="Close**_dogecoin">
+      <data key="d0">0.1193714828425781</data>
+    </edge>
+    <edge source="Close**_binance-coin" target="Close**_balancer">
+      <data key="d0">0.6744119542476967</data>
+    </edge>
+    <edge source="Close**_binance-coin" target="Close**_aragon">
+      <data key="d0">-0.07452685821436217</data>
+    </edge>
+    <edge source="Close**_dogecoin" target="Close**_dogecoin">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Close**_dogecoin" target="Close**_balancer">
+      <data key="d0">0.03962835795656978</data>
+    </edge>
+    <edge source="Close**_dogecoin" target="Close**_aragon">
+      <data key="d0">0.5493998780788275</data>
+    </edge>
+    <edge source="Close**_balancer" target="Close**_balancer">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="Close**_balancer" target="Close**_aragon">
+      <data key="d0">0.9048672403195877</data>
+    </edge>
+    <edge source="Close**_aragon" target="Close**_aragon">
+      <data key="d0">1.0</data>
+    </edge>
+  </graph>
+</graphml>
